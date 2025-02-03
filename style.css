@@ -334,12 +334,12 @@ img {
   margin-left: 76%;
   margin-top: -35%;
 }
-img{
+.img img{
   height: 80%;
-  width: 70%;
+  width: 79%;
   margin-left: 10%;
   border-radius: 20px;
-  box-shadow: 0 4px 25px rgba(3, 181, 226, 0.438);
+  box-shadow: 0 4px 25px rgb(63, 55, 55);
 }
 /* BUTTONS */
 .button {
@@ -350,10 +350,10 @@ img{
   border-radius: 0.5rem;
   background: var(--gardient-color);
   margin-left: 30%;
-  margin-top: 0%;
+  margin-top: -9%;
 }
 .button:hover {
-  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 36px rgb(66, 104, 110);
 }
 .section {
   padding-top: 3rem;
@@ -735,7 +735,6 @@ r{
 }
 .work_img img {
   margin-top: 0%;
-  margin-left: 15%;
   padding: 10px;
   transition: 1s;
   cursor: pointer;
@@ -768,7 +767,6 @@ h1{
 .work1_img img {
   transition: 1s;
   margin-top: 0%;
-  margin-left: 15%;
   padding: 10px;
   cursor: pointer;
 }
@@ -849,6 +847,7 @@ h1{
   align-self: center;
   margin-top: auto;
 }
+
 /* contact */
 .contact{
   height: auto;
@@ -1053,7 +1052,7 @@ h1{
     margin-left: 0%;
     width: 80%;
   }
-   @media screen and (max-width: 576px) {
+  @media screen and (max-width: 576px) {
     /* Adjust font sizes */
     :root {
       --big-font-size: 1.5rem;
@@ -1255,3 +1254,87 @@ h1{
       font-size: 10px;
     }
   }
+  
+  /* .qualification__data{
+    margin-left: 0%;
+   }
+   .qualification__rounder{
+    display: none;
+   }
+   .qualification__line{
+    display: none;
+   }
+   .first .qualification__title{
+    margin-left: 100%;
+   }
+   .first .qualification__subtitle{
+    margin-left: 3%;
+    width: 230%;
+   }
+   .first .services__modal-title{
+    width: 120%;
+    font-size: 14px;
+   }
+   .first p2{
+    font-size: 12px;
+    position: relative;
+    left: 40%;
+   }
+   .first p3{
+    margin-left: 40%;
+    font-size: 12px;
+   }
+   .qualification__title{
+    margin-left: -27%;
+   }
+   .qualification__subtitle{
+    width: 230%;
+    margin-left: -120%;
+   }
+   .services__modal-title{
+    width: 120%;
+    font-size: 14px;
+    margin-left: -100%;
+   }
+   p2{
+    font-size: 12px;
+    position: relative;
+    left: -70%;
+   }
+   .two .qualification__title{
+    margin-left: 80%;
+    width: 100%;
+   }
+   .two .qualification__subtitle{
+    margin-left: 3%;
+    width: 230%;
+   }
+   .two p2{
+    font-size: 12px;
+    position: relative;
+    left: 40%; */
+   }
+   /* .skills_text{
+    display: none;
+   } */
+   /* .pro h1{
+    margin-top: 5%;
+    margin-left: 10%;
+   } */
+   /* .work1_img{
+    display: none;
+   } */
+   /* .pro p{
+    width: 90%;
+    margin-left: 3%;
+    text-align: justify;
+   }
+   .pro a {
+    margin-left: 30%;
+   } */
+   /* .pro1{
+    display: none;
+   }
+   p1{
+    font-size: 18px;
+   } */
